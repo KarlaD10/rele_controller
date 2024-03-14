@@ -25,6 +25,7 @@ class PyToggle(QCheckBox):
         # Connect state changed
         self.stateChanged.connect(self.debug)
 
+
     def debug(self):
         print(f"Status: {self.isChecked()}")
 
