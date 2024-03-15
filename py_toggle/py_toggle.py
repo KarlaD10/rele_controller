@@ -23,7 +23,7 @@ class PyToggle(QCheckBox):
         self._active_color = active_color
 
         # Connect state changed
-        self.stateChanged.connect(self.debug)
+        # self.stateChanged.connect(self.debug)
 
 
     def debug(self):

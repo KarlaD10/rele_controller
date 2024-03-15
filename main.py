@@ -8,6 +8,10 @@ class MainWindow(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
+        self.ui.btn_rele1.clicked.connect(self.rele)
+
+    def rele(self):
+        print("Nombre del button"+self)
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication([])
