@@ -492,7 +492,7 @@ class Ui_MainWindow(object):
         self.btn_rele1.setText(_translate("MainWindow", "PushButton"))
         self.label_21.setText(_translate("MainWindow", "Rele 2"))
         self.label_22.setText(_translate("MainWindow", "Rele 3"))
-        self.btn_rele3.setText(_translate("MainWindow", "PushButton"))
+        self.btn_rele3.setText(_translate("MainWindow", "Push"))
         self.label_23.setText(_translate("MainWindow", "Rele 8"))
         self.btn_rele4.setText(_translate("MainWindow", "PushButton"))
         self.label_7.setText(_translate("MainWindow", "Rele 5"))
